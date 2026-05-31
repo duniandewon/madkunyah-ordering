@@ -1,3 +1,12 @@
+<script setup lang="ts">
+import DefaultLayout from '@/components/layout/DefaultLayout.vue';
+
+</script>
+
 <template>
-  <h1>Home Screen</h1>
+  <DefaultLayout>
+    <template #title>
+      <h1 class="text-xl font-bold">Menus</h1>
+    </template>
+  </DefaultLayout>
 </template>
